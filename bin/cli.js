@@ -15,4 +15,4 @@ if (typeof rolls == 'undefined') { rolls = 1 }
 
 var data = roll(sides, dice, rolls);
 
-console.log(data);
+console.log(JSON.stringify(data));
